@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.png" alt="GGSIPU" class="logo">
+        <h1 class="heading">IPU Forum</h1>
+        <ul class="content">
+            <li><a href="#">Submission</a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="#">Your Profile</a></li>
+        </ul>
+    </div>
+
+<!-- Container for displaying content from the database -->
+<div class="post-container">
+    <!-- Replace this with dynamic content fetched from the database -->
+    <p>Content from the database goes here.</p>
+
+    <!-- Reply section -->
+    <div class="reply-container">
+        <h3>Reply Section</h3>
+        <!-- Add a form for users to submit replies -->
+        <form id="reply-form">
+            <label for="reply-text">Your Reply:</label><br>
+            <textarea id="reply-text" name="reply-text" rows="4" cols="50"></textarea><br>
+            <button type="submit">Submit Reply</button>
+        </form>
+    </div>
+</div>
+
+<!-- Repeat the above structure for each post from the database -->
+
+<!-- Example of another post -->
+<div class="post-container">
+    <!-- Replace this with dynamic content fetched from the database -->
+    <p>Another post from the database.</p>
+
+    <!-- Reply section -->
+    <div class="reply-container">
+        <h3>Reply Section</h3>
+        <!-- Add a form for users to submit replies -->
+        <form id="reply-form">
+            <label for="reply-text">Your Reply:</label><br>
+            <textarea id="reply-text" name="reply-text" rows="4" cols="50"></textarea><br>
+            <button type="submit">Submit Reply</button>
+        </form>
+    </div>
+</div>
+
+<!-- Add more posts and reply sections as needed -->
+
+
+<script src="your-js-file.js"></script>
+
+</body>
+</html>

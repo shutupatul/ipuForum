@@ -1,6 +1,6 @@
     body {
         font-family: Arial, sans-serif;
-        background-color: #007FFF;
+        background-color: #ffff;
         margin: 0;
         padding: 0;
         display: flex;
@@ -26,6 +26,12 @@
         /* Center the logo */
     }
 
+    img{
+        width: 100px;
+        height: auto;
+        margin: 0px 1360px -51px 0px;
+    }
+
     input[type="text"],
     input[type="password"] {
         width: 100%;
@@ -43,3 +49,95 @@
         border-radius: 5px;
         cursor: pointer;
     }
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #007BFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Logo styles */
+.logo {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Heading styles */
+.heading {
+    color: white;
+    text-align: center;
+    margin: 0;
+    flex-grow: 1;
+}
+
+/* UL (unordered list) styles */
+.content {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: larger;
+    padding: 10px 20px;
+}
+
+/* List item (li) styles */
+.content li {
+    margin-right: 10px;
+}
+
+/* Anchor (a) styles */
+.content li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hover effect for anchors */
+.content li a:hover {
+    text-decoration: underline;
+}
+
+/* Submission container */
+.submission {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Input container */
+.input-container {
+    display: inline-block;
+    position: relative;
+}
+
+/* Input styles */
+#sub-btn {
+    padding: 50px 50px;
+    /* Adjust the padding to make the input box bigger */
+    width: 100%;
+}
+
+/* Button styles */
+#post-button {
+    position: relative;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+}
+

@@ -1,0 +1,19 @@
+// Wait for the DOM to be fully loaded before attaching event handlers
+document.addEventListener("DOMContentLoaded", function () {
+    // Get references to the elements
+    const postButton = document.getElementById("post-button");
+    const submissionTextarea = document.getElementById("sub-btn");
+
+    // Add a click event listener to the "Post Your Submission" button
+    postButton.addEventListener("click", function () {
+        // Get the content of the textarea
+        const submissionContent = submissionTextarea.value;
+
+        // Perform any desired actions with the submission content here
+        // For this example, we'll just display an alert
+        alert("You posted: " + submissionContent);
+
+        // Clear the textarea after posting
+        submissionTextarea.value = "";
+    });
+});
